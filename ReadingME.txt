@@ -1,0 +1,30 @@
+Student name :Zhaolong Ma
+Student number: 200947242
+
+
+At the beginning ,there is an animation of the whole scene.(automatic)
+when it stop, 
+press 5 :change to view of robot
+press 6 :move by user
+I change the bumpFregment shader to use two lights,
+one is on the map
+one light is following the monster
+In fact the floor behind the yellow wall is the other scene at the beginning design but now it is just the platform of camera. 
+
+I have changed the time to control the blink of eyes. In different movement of eyes, there is different light on the map.
+I have added the monster on the map to walk, and set the distance.
+There are different cuberobots on the map. They are in different mesh there for their types are different.
+The water can reflact the picture of the skybox.
+I set another floor texture as the floor.
+the texture of the heightmap
+
+if the light follow the monster and the light in a same place, the first light will cover the second light(Colour grading)
+the light can move with monster(Direction light)
+the water is transparent(Correct rendering of transparent objects)
+there are two lights on the map(Effective use of extra shader stages)
+and the fragment shader was be changed(Fragment shader effects)
+the monster(Skeletal animation in scene)
+
+
+Because I typed the code on vs2022,  I tried to put the programme on computer on school, it was not campatible.
+I put the exe.programme in the :CSC8502 2022 - Zhaolong Ma\Blank Project\Blank Project.exe.    it worked.
